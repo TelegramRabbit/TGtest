@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправка в Telegram</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    
+    <style>
+        
+    body {
+    background-color: #d6d6d6
+    } 
+    </style>
+</head>
+<body>
+    <h1>Отправка сообщения и фото в Telegram</h1>
+    <form id="telegramForm">
+        <label for="message">Сообщение:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" style="width: 100%; height: 100px;"></textarea><br><br>
+        <label for="photo">Фото:</label><br>
+        <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+        <button type="submit">Отправить</button>
+    </form>
+
+    <!-- Подключение внешнего JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
